@@ -4,7 +4,7 @@
 
 ![Akademi Banner](https://img.shields.io/badge/Akademi-Signature%20Edition-16a34a?style=for-the-badge&logo=googlescholar&logoColor=white)
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=vercel)](https://scholarship-management-sys.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=vercel)](https://akademi-scholarship-management-syst-one.vercel.app/)
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
@@ -12,7 +12,7 @@
 
 **A production-grade, full-stack scholarship orchestration platform with Elite UI/UX**
 
-[Live Demo](https://scholarship-management-sys.vercel.app/) • [Features](#-key-features) • [Tech Stack](#-technology-stack) • [Quick Start](#-quick-start) • [Documentation](#-documentation)
+[Live Demo](https://akademi-scholarship-management-syst-one.vercel.app/) • [Features](#-key-features) • [Tech Stack](#-technology-stack) • [Quick Start](#-quick-start) • [Documentation](#-documentation)
 
 </div>
 
@@ -39,11 +39,11 @@ Akademi is a comprehensive **scholarship intelligence platform** featuring premi
 ### 🌍 **Public Pages**
 | Page | Description | Live URL |
 |------|-------------|----------|
-| **Home** | Immersive landing with cinematic banner & stats | [View →](https://scholarship-management-sys.vercel.app/) |
-| **Directory** | Advanced search for all available scholarships | [View →](https://scholarship-management-sys.vercel.app/all-scholarships) |
-| **About** | Mission statement and impact metrics | [View →](https://scholarship-management-sys.vercel.app/about) |
-| **Contact** | 24/7 dedicated support channel | [View →](https://scholarship-management-sys.vercel.app/contact) |
-| **Pricing** | Clear platform access levels | [View →](https://scholarship-management-sys.vercel.app/pricing) |
+| **Home** | Immersive landing with cinematic banner & stats | [View →](https://akademi-scholarship-management-syst-one.vercel.app/) |
+| **Directory** | Advanced search for all available scholarships | [View →](https://akademi-scholarship-management-syst-one.vercel.app/all-scholarships) |
+| **About** | Mission statement and impact metrics | [View →](https://akademi-scholarship-management-syst-one.vercel.app/about) |
+| **Contact** | 24/7 dedicated support channel | [View →](https://akademi-scholarship-management-syst-one.vercel.app/contact) |
+| **Pricing** | Clear platform access levels | [View →](https://akademi-scholarship-management-syst-one.vercel.app/pricing) |
 
 ### 🔐 **Authentication**
 - **Login** - Secure email/password authentication
