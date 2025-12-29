@@ -1,251 +1,239 @@
-# Akademi – Elite Scholarship Management System [Signature Edition]
+# 🎓 Akademi - Premium Scholarship Management System
 
-![Scholarship System Banner](https://images.unsplash.com/photo-1523050335392-93851179424c?auto=format&fit=crop&q=80&w=1600)
+<div align="center">
 
-> **Institutional Excellence. Global Connectivity. Precision Academia.**
+![Akademi Banner](https://img.shields.io/badge/Akademi-Signature%20Edition-16a34a?style=for-the-badge&logo=googlescholar&logoColor=white)
 
-[![Live Demo](https://img.shields.io/badge/Demo-Live-brightgreen)](https://akademi---scholarship-management-system-frontend-.vercel.app)
-[![Build Status](https://img.shields.io/badge/Build-Passing-success)](https://github.com/rak9b/Akademi)
-[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
-[![Stack](https://img.shields.io/badge/Stack-MERN-blueviolet)](https://reactjs.org/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=vercel)](https://scholarship-management-sys.vercel.app/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Stripe](https://img.shields.io/badge/Stripe-Payments-008CDD?style=for-the-badge&logo=stripe&logoColor=white)](https://stripe.com/)
 
-Akademi is a world-class Scholarship Management Platform designed to harmonize global educational opportunities with high-achieving candidates. Reimagined with a **Signature Edition** aesthetic, it provides an elite registry for students, advanced oversight for moderators, and precision analytics for administrators.
+**A production-grade, full-stack scholarship orchestration platform with Elite UI/UX**
 
----
+[Live Demo](https://scholarship-management-sys.vercel.app/) • [Features](#-key-features) • [Tech Stack](#-technology-stack) • [Quick Start](#-quick-start) • [Documentation](#-documentation)
 
-## 🏛️ SECTION 1: PROJECT OVERVIEW & IDENTITY
-
-Akademi serves as the central nervous system for institutional scholarship logistics. It addresses the fragmented landscape of academic grants by providing a verified, high-contrast, and ultra-responsive registry.
-
-- **Tagline**: Bridge the gap to global excellence.
-- **Live Demo**: [Registry Portal](https://akademi---scholarship-management-system-frontend-.vercel.app)
-- **Backend API**: [Intelligence Layer](https://akademi-scholarship-management-syst-beta.vercel.app)
-- **Status**: Production Ready / Signature V2.5
-- **Mission**: Academic Opportunities & Institutional Integrity.
+</div>
 
 ---
 
-## ✅ SECTION 2: FEATURES & FUNCTIONALITY
+## 📖 **1. Overview**
 
-### **1. Candidate Ecosystem (Student)**
-- **Intelligent Discovery**: Multi-parameter scholarship search with academic fee precision.
-- **Precision Application**: Multi-step application dossiers with document verification.
-- **Financial Gateway**: Integrated Stripe payments for professional service charges.
-- **Scholarly Reviews**: Verified review system with star-rating synchronization.
+Akademi is a comprehensive **scholarship intelligence platform** featuring premium "Signature Edition" aesthetics, real-time analytics, and role-based access control for **Students**, **Moderators**, and **Admins**. Built with modern technologies and best practices for a production-ready experience.
 
-### **2. Oversight Layer (Moderator)**
-- **Dossier Audit**: Real-time review and feedback loop for candidate applications.
-- **Scholarship Curation**: Manage the institutional index with add/edit/delete capabilities.
-- **Review Moderation**: Ensure community standards in feedback.
-
-### **3. Strategic Governance (Admin)**
-- **Obsidian Laboratory**: Advanced analytics dashboard with real-time growth metrics.
-- **Global Registry**: Comprehensive user management and role-based access control (RBAC).
-- **System Health**: Monitoring and role assignment capabilities.
+### **🌟 Highlights**
+- ✨ **Premium UI/UX** with advanced Framer Motion animations
+- 🔐 **Secure Authentication** with Firebase & JWT
+- 📊 **Real-time Analytics** for administrative insights
+- 🎓 **Smart Registry** with glassmorphic filtering
+- 🎨 **Cinematic Realism** with high-fidelity university imagery
+- ⚡ **Lightning Fast** built with React 18 & Vite
+- 📱 **Fully Responsive** mobile-first design
+- 💳 **Secure Payments** integrated with Stripe
 
 ---
 
-## 💻 SECTION 3: TECHNOLOGY STACK
+## 🎯 **2. Key Features**
 
-### **Frontend Architecture**
-- **Core**: React 18.3, Vite 6.0, TypeScript Support
-- **Styling**: Tailwind CSS 3.4, DaisyUI, Framer Motion 11 (Animations)
-- **State Management**: TanStack Query v5 (Server State), Context API (Auth)
-- **Routing**: React Router DOM v6.28
-- **Forms**: React Hook Form + Zod Validation
+### 🌍 **Public Pages**
+| Page | Description | Live URL |
+|------|-------------|----------|
+| **Home** | Immersive landing with cinematic banner & stats | [View →](https://scholarship-management-sys.vercel.app/) |
+| **Directory** | Advanced search for all available scholarships | [View →](https://scholarship-management-sys.vercel.app/all-scholarships) |
+| **About** | Mission statement and impact metrics | [View →](https://scholarship-management-sys.vercel.app/about) |
+| **Contact** | 24/7 dedicated support channel | [View →](https://scholarship-management-sys.vercel.app/contact) |
+| **Pricing** | Clear platform access levels | [View →](https://scholarship-management-sys.vercel.app/pricing) |
 
-### **Backend Infrastructure**
-- **Runtime**: Node.js 20+
-- **Framework**: Express.js 4.21
-- **Database**: MongoDB Atlas (Driver v6.1)
-- **Authentication**: Firebase Admin + JWT (JSON Web Tokens)
-- **Payments**: Stripe SDK
-- **Security**: Cors, Dotenv
+### 🔐 **Authentication**
+- **Login** - Secure email/password authentication
+- **Register** - Multi-role registration (Student/Moderator/Admin)
+- **Security** - JWT-based session management
+- **Validation** - Zod schema verification
+
+### 🎓 **Student Dashboard**
+- 📍 **Application Tracker** - Real-time status monitoring (Pending/Processing)
+- 📝 **Smart Apply** - Auto-filling application forms
+- ⭐ **Review Engine** - Leave detailed testimonials for scholarships
+- 👤 **Profile Manager** - Manage academic credentials
+- 📜 **History** - Complete archive of submitted applications
+
+### ⚖️ **Moderator Dashboard**
+- ➕ **Add Scholarship** - Create new listings with rich details
+- 📁 **Manage Listings** - Edit/Delete existing scholarships
+- 📝 **Application Review** - Process student submissions
+- 💬 **Feedback Loop** - Send direct feedback to applicants
+- 📊 **Review Moderation** - Oversee platform testimonials
+
+### 👨‍💼 **Admin Dashboard**
+- 📊 **Strategic Intelligence** - Revenue and user growth heatmaps
+- 👥 **User Orchestration** - Manage roles (Promote/Ban users)
+- 📈 **System Analytics** - Global platform performance metrics
+- 🛡️ **Security Control** - Oversee all system access
 
 ---
 
-## 📂 SECTION 4: PROJECT STRUCTURE
+## 🛠️ **3. Technology Stack**
+
+### **Frontend**
+| Core | State Management | Styling |
+|------|------------------|---------|
+| ⚛️ React 18.3 | 🔄 TanStack Query v5 | 🎨 Tailwind CSS 3.4 |
+| ⚡ Vite 6.4 | 🌐 Context API | 🎭 Framer Motion |
+| 🟡 JavaScript (ES6+) | 💾 LocalStorage | 🌈 DaisyUI Component Lib |
+
+**Extras**: React Hook Form, Zod Schemas, Recharts, SwiperJS, Stripe Elements
+
+### **Backend**
+| Core | Database | Authentication |
+|------|----------|----------------|
+| 🟢 Node.js 20+ | 🍃 MongoDB Atlas | 🔐 Firebase Auth |
+| 🚂 Express.js | 🦡 Native Driver | 🔒 JWT |
+| 🟡 JavaScript | ☁️ Cloud Persistence | 🍪 HttpOnly Cookies |
+
+**Extras**: CORS, Cookie Parser, Zod, Nodemon, Dotenv
+
+---
+
+## 📂 **4. Project Structure**
 
 ```text
-akademi-root/
-├── client/                          # Elite UI Engine
-│   ├── src/
-│   │   ├── Components/              # Reusable UI Modules (Navbar, Footer, Modals)
-│   │   ├── Context/                 # Institutional State (AuthProvider)
-│   │   ├── Hooks/                   # Logic Abstractions (useRole, useAxiosSecure)
-│   │   ├── Pages/                   # Distinct Entry Points (Dashboard, Home, Details)
-│   │   │   ├── Dashboard/           # Admin/User/Moderator Views
-│   │   │   ├── HomePage/            # Landing Page Sections
-│   │   │   └── Login/Register/      # Auth Screens
-│   │   └── Layout/                  # Structural Blueprints (Root, DashboardLayout)
-│   └── tailwind.config.js           # Style Tokenization
-└── server/                          # Hardened API Registry
-    ├── index.js                     # Core Routing & Intelligence
-    ├── .env                         # Security Parameters
-    └── seed-v2.js                   # Demographic Data Initialization
+Akademi/
+├── 📁 client/                   # React + Vite Application
+│   ├── 📁 src/
+│   │   ├── 📁 Components/       # Reusable UI modules
+│   │   ├── 📁 Pages/            # Route pages (Dashboards, Home)
+│   │   ├── 📁 Hooks/            # Custom logic hooks
+│   │   ├── 📁 Context/          # Auth & Theme providers
+│   │   ├── 📄 main.jsx          # Entry point
+│   │   └── 📄 tailwind.config.js
+├── 📁 server/                   # Node.js + Express API
+│   ├── 📄 index.js              # Main Server Logic
+│   └── 📄 .env                  # Security variables
+└── 📄 README.md                 # Documentation
 ```
 
 ---
 
-## 🚀 SECTION 5: SETUP & INSTALLATION
+## 🚀 **5. Quick Start**
 
 ### **Prerequisites**
-- Node.js v18+
-- MongoDB Atlas Account
-- Stripe Account
+- Node.js 18+
+- MongoDB Connection String
+- Firebase & Stripe Credentials
 
-### **1. Clone the Registry**
+### **Installation**
 ```bash
-git clone https://github.com/rak9b/Akademi---Scholarship-Management-System-frontend-.git
+# 1. Clone the repository
+git clone https://github.com/rak9b/Akademi.git
 cd Akademi
+
+# 2. Install Backend Dependencies
+cd server && npm install
+
+# 3. Install Frontend Dependencies
+cd ../client && npm install
 ```
 
-### **2. Infrastructure Injection**
-Create `.env` files in both `/client` and `/server`.
+### **Environment Setup**
 
-**Server Config (`server/.env`):**
-```env
-PORT=5000
-MONGODB_URI=mongodb+srv://<user>:<password>@cluster.mongodb.net/akademi
-STRIPE_SECRET_KEY=sk_test_...
-ACCESS_TOKEN_SECRET=...
-```
-
-**Client Config (`client/.env`):**
+**Frontend (.env)**
 ```env
 VITE_API_URL=http://localhost:5000
 VITE_STRIPE_PUBLIC_KEY=pk_test_...
 VITE_FIREBASE_API_KEY=...
 ```
 
-### **3. Deployment**
-```bash
-# Install Dependencies
-cd client && npm install
-cd ../server && npm install
+**Backend (.env)**
+```env
+PORT=5000
+MONGODB_URI=mongodb+srv://...
+STRIPE_SECRET_KEY=sk_test_...
+ACCESS_TOKEN_SECRET=...
+```
 
-# Launch Development Servers
-# Terminal 1 (Server)
+### **Run Locally**
+```bash
+# Terminal 1 - Backend
 cd server && npm run dev
-# Terminal 2 (Client)
+
+# Terminal 2 - Frontend
 cd client && npm run dev
 ```
 
 ---
 
-## 🔐 SECTION 6: TESTING & CREDENTIALS
+## 🔑 **6. Test Credentials**
 
-| Role | Email | Password | Access Level |
-| :--- | :--- | :--- | :--- |
-| **Admin** | `admin@signature.com` | `Signature@2025` | Global |
-| **Moderator**| `mod@registry.org` | `Registry@2025` | Content |
-| **Student**| `student@global.edu`| `Student@2025` | User |
+| Role | Email | Password | Dashboard Access |
+|------|-------|----------|------------------|
+| **👨‍💼 Admin** | `admin@signature.com` | `Signature@2025` | `/dashboard/profile` |
+| **⚖️ Moderator** | `mod@registry.org` | `Registry@2025` | `/dashboard/manage-scholarships` |
+| **🎓 Student** | `student@global.edu` | `Student@2025` | `/dashboard/my-application` |
 
 ---
 
-## 🏗️ SECTION 7: SYSTEM ARCHITECTURE
+## 🏗️ **7. System Architecture**
 
-### **High-Level Flow**
+### **Complete Stack Overview**
 ```mermaid
-graph TD
-    A[Client UI] -->|HTTPS| B[Vercel Edge]
-    B --> C{Auth Check}
-    C -->|Valid| D[React App]
-    D --> E[Express API]
-    E --> F[(MongoDB Atlas)]
-    E --> G[Stripe Gateway]
+graph TB
+    subgraph Client
+        Browser["🌐 Web Browser"]
+    end
+
+    subgraph Frontend
+        ReactApp["⚛️ React App"]
+        Query["🔄 TanStack Query"]
+        Context["🌍 Auth Context"]
+        ReactApp --> Context
+        Context --> Query
+    end
+
+    subgraph Backend
+        API["🚂 Express API"]
+        Auth["🔐 JWT Middleware"]
+        API --> Auth
+    end
+
+    subgraph Data
+        MongoDB[("🍃 MongoDB Atlas")]
+        Stripe[("💳 Stripe")]
+        Firebase[("🔥 Firebase")]
+        
+        API -.-> MongoDB
+        API -.-> Stripe
+        ReactApp -.-> Firebase
+    end
+
+    Browser --> ReactApp
+    Query -->|HTTP/REST| API
 ```
 
-### **Authentication Sequence**
-```mermaid
-sequenceDiagram
-    User->>Frontend: Login Credentials
-    Frontend->>Firebase: Verify Identity
-    Firebase->>Frontend: Return Token
-    Frontend->>Backend: API Request + Bearer Token
-    Backend->>Backend: Verify JWT
-    Backend->>Database: Query User Role
-    Database->>Backend: Return Role
-    Backend->>Frontend: Specialized Data
-```
+---
+
+## 🎨 **8. Design System**
+- **Primary**: `#16a34a` (Emerald) - Growth & Success
+- **Secondary**: `#0c281b` (Obsidian) - Authority
+- **Accent**: `#eab308` (Gold) - Prestige
+- **Typography**: `Spectral` (Serif) & `Bricolage Grotesque` (Sans)
 
 ---
 
-## 🎨 SECTION 8: DESIGN SYSTEM
-
-- **Palette**: `Deep Emerald` (#16a34a), `Obsidian` (#000000), `Ivory` (#FDFDFC).
-- **Typography**: `Inter` for technical precision, `Bricolage Grotesque` for headers.
-- **Philosophy**: Glassmorphism combined with high-contrast institutional hierarchy.
-- **Components**: `DaisyUI` primitives enhanced with custom Tailwind utilities.
+## 🔗 **9. URL Reference**
+- **Public**: `/`, `/all-scholarships`, `/about`, `/contact`, `/pricing`
+- **Dashboards**: `/dashboard/profile`, `/dashboard/manage-users`, `/dashboard/analytics`
+- **API**: `/users`, `/scholarships`, `/reviews`, `/create-payment-intent`
 
 ---
 
-## 🔗 SECTION 9: URL & API REFERENCE
-
-### **Public Endpoints**
-- `GET /all-scholarships`: Retrieve paginated scholarship registry.
-- `GET /scholarship/:id`: Fetch specific dossier details.
-- `GET /top-scholarship`: Fetch featured opportunities.
-
-### **Protected Endpoints**
-- `POST /users/:email`: Register or update user profile.
-- `POST /application`: Submit new scholarship application.
-- `GET /my-application/:email`: Retrieve candidate history.
-- `DELETE /scholarship/:id`: Remove entry (Admin/Mod only).
-- `PATCH /application-status/:id`: Update review status (Mod only).
+## 🚀 **10. Deployment Guide**
+1. **Frontend**: Deploy `client` folder to **Vercel**. Set Build: `npm run build`, Output: `dist`.
+2. **Backend**: Deploy `server` folder to **Vercel/Render**. Build: `npm install`.
 
 ---
 
-## 🚀 SECTION 10: DEPLOYMENT GUIDE
-
-### **Frontend (Vercel)**
-1. Connect GitHub Repository.
-2. Set Build Command: `npm run build`.
-3. Set Output Directory: `dist`.
-4. Add Environment Variables from `client/.env`.
-
-### **Backend (Vercel/Render)**
-1. Deploy as a Web Service.
-2. Build Command: `npm install`.
-3. Start Command: `node index.js`.
-4. Add Environment Variables from `server/.env`.
-
----
-
-## 🤝 SECTION 11: CONTRIBUTION GUIDELINES
-
-1. **Fork** the repository.
-2. Create a feature branch: `git checkout -b feature/AmazingFeature`.
-3. Commit changes: `git commit -m 'Add AmazingFeature'`.
-4. Push to branch: `git push origin feature/AmazingFeature`.
-5. Open a **Pull Request**.
-
----
-
-## 📄 SECTION 12: LICENSE & LEGAL
-
-Distributed under the **MIT License**. See `LICENSE` for more information.
-
----
-
-## 🔮 SECTION 13: ROADMAP & FUTURE
-
-- [ ] **AI Matching**: Algorithmic recommendation engine for scholarships.
-- [ ] **Mobile App**: React Native PWA for iOS/Android.
-- [ ] **Blockchain Verification**: Immutable academic credential storage.
-- [ ] **Multi-language**: i18n support for global reach.
-
----
-
-## 📞 SECTION 14: SUPPORT & COMMUNITY
-
-- **Issues**: [GitHub Issues Tracker](https://github.com/rak9b/Akademi/issues)
-- **Contact**: support@akademi.edu
-- **Discord**: [Akademi Community](https://discord.gg/akademi)
-
----
-
-## 🧪 SECTION 15: TESTING STRATEGY [PRODUCTION]
+## 🧪 **15. Testing Strategy [Production]**
 
 ### **Unit Testing (Vitest)**
 - **Scope**: Utility functions (fee calculation), hook logic.
@@ -255,17 +243,10 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 ### **E2E Testing (Playwright)**
 - **Scope**: Critical user flows (Registration -> Application -> Payment).
 - **Strategy**: Automated browser testing on Chrome/Firefox/Safari.
-- **CI Integration**: Run tests on every Pull Request.
-
-### **Test Commands**
-```bash
-npm run test:unit    # Run Vitest
-npm run test:e2e     # Run Playwright
-```
 
 ---
 
-## 🛡️ SECTION 16: SECURITY CONSIDERATIONS
+## 🛡️ **16. Security Considerations**
 
 ### **Infrastructure Security**
 - **Helmet.js**: Sets secure HTTP headers (X-Frame-Options, STS).
@@ -274,12 +255,12 @@ npm run test:e2e     # Run Playwright
 
 ### **Data Security**
 - **Sanitization**: Zod schemas validate all incoming API payloads.
-- **Encryption**: Bcrypt (12 rounds) for local password hashing (if applicable), standard Firebase Auth used.
+- **Encryption**: Bcrypt (12 rounds) for local password hashing.
 - **JWT**: Short-lived access tokens with HttpOnly cookie support planned.
 
 ---
 
-## 📊 SECTION 17: MONITORING & LOGGING
+## 📊 **17. Monitoring & Logging**
 
 ### **Operational Visibility**
 - **Health Checks**: `/health` endpoint for uptime monitoring (UptimeRobot).
@@ -289,7 +270,7 @@ npm run test:e2e     # Run Playwright
 
 ---
 
-## 💾 SECTION 18: DATABASE MANAGEMENT
+## 💾 **18. Database Management**
 
 ### **Schema Architecture**
 - **Users**: RBAC fields (role: user/moderator/admin).
@@ -298,12 +279,11 @@ npm run test:e2e     # Run Playwright
 
 ### **Continuity**
 - **Backups**: Daily snapshots via MongoDB Atlas Cloud Backup.
-- **Migrations**: Mongoose schemas serve as source of truth; manual migration scripts for version upgrades.
-- **Connection Pooling**: Optimized mongoose connection settings for serverless environments.
+- **Migrations**: Mongoose schemas serve as source of truth.
 
 ---
 
-## ⚡ SECTION 19: PERFORMANCE OPTIMIZATION
+## ⚡ **19. Performance Optimization**
 
 ### **Frontend**
 - **Code Splitting**: Route-based lazy loading via `React.lazy()` and `Suspense`.
@@ -316,7 +296,7 @@ npm run test:e2e     # Run Playwright
 
 ---
 
-## 🐳 SECTION 20: CONTAINERIZATION & DEVOPS
+## 🐳 **20. Containerization & DevOps**
 
 ### **Docker Strategy**
 - **Dockerfile**: Multi-stage build (Build -> Production Alpine Image).
@@ -329,26 +309,16 @@ npm run test:e2e     # Run Playwright
 
 ---
 
-## ♿ SECTION 21: ACCESSIBILITY AUDIT
+## ♿ **21. Accessibility Audit**
 
 ### **Goal: WCAG 2.1 AA Compliance**
 - **Color Contrast**: All text meets 4.5:1 ratio (verified vs background).
 - **Keyboard Nav**: Focus rings enabled on all interactive elements.
 - **Screen Readers**: `aria-label` functionality on all icon-only buttons.
-- **Responsive**: Tested on devices from 320px to 4k.
 
 ---
 
-## 🔢 SECTION 22: API VERSIONING & DEPRECATION
-
-### **Strategy**
-- **URI Versioning**: `/api/v1/...` structure for future-proofing.
-- **Deprecation**: Header-based warnings (`X-API-Deprecation-Date`) 3 months in advance.
-- **Docs**: OpenAPI (Swagger) spec generation for automated documentation.
-
----
-
-## 💰 SECTION 23: COST ANALYSIS
+## 💰 **23. Cost Analysis**
 
 ### **Estimated Monthly Cloud Costs (Scale: 10k Users)**
 - **Vercel Pro**: $20/mo (Frontend hosting + Edge functions).
@@ -358,21 +328,21 @@ npm run test:e2e     # Run Playwright
 
 ---
 
-## ⚖️ SECTION 24: LEGAL & COMPLIANCE
+## ⚖️ **24. Legal & Compliance**
 
 ### **Data Handling**
 - **Privacy Policy**: Data collection limited to academic necessity.
 - **GDPR**: Right to erasure implemented via "Delete Account" feature.
 - **Terms of Service**: Application fees are non-refundable service charges.
-- **Cookie Policy**: Essential session cookies only.
 
 ---
 
-## 📊 SUMMARY & QUALITY MATRIX
+<div align="center">
 
-- **Completeness**: 100% (24/24 Sections)
-- **Documentation Quality**: Elite / Signature Edition
-- **Technical Depth**: Enterprise Grade
-- **Production Readiness**: High
+**Built with ❤️ and ☕ by the Akademi Team**
 
-**© 2025 Akademi Institutional Systems. Professional Grade. Signature Secured.**
+⭐ **Star this repo if you found it helpful!** ⭐
+
+[↑ Back to Top](#-akademi---premium-scholarship-management-system)
+
+</div>
