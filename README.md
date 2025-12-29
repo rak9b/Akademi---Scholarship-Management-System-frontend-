@@ -12,7 +12,7 @@
 
 **A production-grade, full-stack scholarship orchestration platform with Elite UI/UX**
 
-[Live Demo](https://akademi-scholarship-management-syst-one.vercel.app/) • [Features](#-key-features) • [Tech Stack](#-technology-stack) • [Quick Start](#-quick-start) • [Documentation](#-documentation)
+[Live Demo](https://akademi-scholarship-management-syst-one.vercel.app/) • [Backend API](https://akademi-scholarship-management-syst.vercel.app/) • [Features](#-key-features) • [Tech Stack](#-technology-stack) • [Quick Start](#-quick-start) • [Documentation](#-documentation)
 
 </div>
 
@@ -221,7 +221,9 @@ graph TB
 ---
 
 ## 🔗 **9. URL Reference**
-- **Public**: `/`, `/all-scholarships`, `/about`, `/contact`, `/pricing`
+- **Frontend Base**: [Live App](https://akademi-scholarship-management-syst-one.vercel.app/)
+- **Backend Base**: [Live API](https://akademi-scholarship-management-syst.vercel.app/)
+- **Public Routes**: `/`, `/all-scholarships`, `/about`, `/contact`, `/pricing`
 - **Dashboards**: `/dashboard/profile`, `/dashboard/manage-users`, `/dashboard/analytics`
 - **API**: `/users`, `/scholarships`, `/reviews`, `/create-payment-intent`
 
