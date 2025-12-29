@@ -210,6 +210,50 @@ graph TB
     Query -->|HTTP/REST| API
 ```
 
+### **Authentication Flow**
+```mermaid
+sequenceDiagram
+    participant User
+    participant Client as 🖥️ Frontend
+    participant Firebase as 🔥 Firebase Auth
+    participant API as 🚂 Backend API
+    participant DB as 🍃 MongoDB
+
+    User->>Client: Clicks Login (Google/Email)
+    Client->>Firebase: Request Authentication
+    Firebase-->>Client: Return Firebase Token (UID)
+    Client->>API: POST /jwt (Send Email)
+    API->>API: Create Signed JWT Token
+    API-->>Client: Return HttpOnly Cookie
+    
+    Note over Client,API: Secure Session Established
+    
+    Client->>API: Request Protected Data
+    API->>DB: Verify User Role
+    DB-->>API: Role Confirmed
+    API-->>Client: Return Data
+```
+
+### **Scholarship Application Lifecycle**
+```mermaid
+stateDiagram-v2
+    [*] --> Pending: Student Submits Application
+    Pending --> Processing: Moderator Reviews Dossier
+    Processing --> Feedback: More Info Needed
+    Feedback --> Processing: Student Updates Info
+    Processing --> Approved: Criteria Met
+    Processing --> Rejected: Criteria Unmet
+    
+    state Processing {
+        [*] --> DocCheck
+        DocCheck --> Interview
+        Interview --> FinalDecision
+    }
+    
+    Approved --> [*]: Grant Awarded
+    Rejected --> [*]: Notification Sent
+```
+
 ---
 
 ## 🎨 **8. Design System**
