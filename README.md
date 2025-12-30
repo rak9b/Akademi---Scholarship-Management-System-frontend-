@@ -1,17 +1,18 @@
 # 🎓 Akademi - Premium Scholarship Management System
 
 <div align="center">
-   
-![Akademi Banner](https://img.shields.io/badge/Akademi-Signature%20Edition-16a34a?style=for-the-badge&logo=googlescholar&logoColor=white)
 
+[![Akademi Banner](https://img.shields.io/badge/Akademi-Signature%20Edition-16a34a?style=for-the-badge&logo=googlescholar&logoColor=white)](https://ibb.co/B2gKBpsR)
 
 **A production-grade, full-stack scholarship orchestration platform with Elite UI/UX**
 
-[Live Demo](https://akademi-scholarship-management-syst-one.vercel.app/) • [Frontend Repo](https://github.com/rak9b/Akademi---Scholarship-Management-System-frontend-) • [Backend Repo](https://github.com/rak9b/Akademi---Scholarship-Management-System-backend-) • [Screenshot](https://ibb.co/B2gKBpsR)
+[Live Demo](https://akademi-scholarship-management-syst-one.vercel.app/) • 
+[Frontend Repo](https://github.com/rak9b/Akademi---Scholarship-Management-System-frontend-) • 
+[Backend Repo](https://github.com/rak9b/Akademi---Scholarship-Management-System-backend-) • 
+[Screenshot](https://ibb.co/B2gKBpsR)
 
 </div>
 
----
 
 ## 📖 **1. Overview**
 
