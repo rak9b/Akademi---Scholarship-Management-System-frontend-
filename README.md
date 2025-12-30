@@ -5,14 +5,15 @@
 ![Akademi Banner](https://img.shields.io/badge/Akademi-Signature%20Edition-16a34a?style=for-the-badge&logo=googlescholar&logoColor=white)
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=vercel)](https://akademi-scholarship-management-syst-one.vercel.app/)
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-[![Stripe](https://img.shields.io/badge/Stripe-Payments-008CDD?style=for-the-badge&logo=stripe&logoColor=white)](https://stripe.com/)
+[![Frontend](https://img.shields.io/badge/Frontend-React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://github.com/rak9b/Akademi---Scholarship-Management-System-frontend-)
+[![Backend](https://img.shields.io/badge/Backend-Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://github.com/rak9b/Akademi---Scholarship-Management-System-backend-)
+[![Database](https://img.shields.io/badge/Database-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Payments](https://img.shields.io/badge/Stripe-Payments-008CDD?style=for-the-badge&logo=stripe&logoColor=white)](https://stripe.com/)
+[![Screenshot](https://img.shields.io/badge/Screenshot-View-blue?style=for-the-badge)](https://ibb.co/B2gKBpsR)
 
 **A production-grade, full-stack scholarship orchestration platform with Elite UI/UX**
 
-[Live Demo](https://akademi-scholarship-management-syst-one.vercel.app/) • [Backend API](https://akademi-scholarship-management-syst.vercel.app/) • [Features](#-key-features) • [Tech Stack](#-technology-stack) • [Quick Start](#-quick-start) • [Documentation](#-documentation)
+[Live Demo](https://akademi-scholarship-management-syst-one.vercel.app/) • [Frontend Repo](https://github.com/rak9b/Akademi---Scholarship-Management-System-frontend-) • [Backend Repo](https://github.com/rak9b/Akademi---Scholarship-Management-System-backend-) • [Screenshot](https://ibb.co/B2gKBpsR)
 
 </div>
 
