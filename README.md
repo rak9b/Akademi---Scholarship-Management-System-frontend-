@@ -13,6 +13,22 @@
 
 </div>
 
+<div align="center">
+
+<!-- Clickable large landscape image -->
+<a href="https://ibb.co/B2gKBpsR" target="_blank">
+  <img src="https://i.ibb.co/XYZ/your-screenshot.png" alt="Akademi Screenshot" width="800">
+</a>
+
+<p>A production-grade, full-stack scholarship orchestration platform with Elite UI/UX</p>
+
+[Live Demo](https://akademi-scholarship-management-syst-one.vercel.app/) • 
+[Frontend Repo](https://github.com/rak9b/Akademi---Scholarship-Management-System-frontend-) • 
+[Backend Repo](https://github.com/rak9b/Akademi---Scholarship-Management-System-backend-)
+
+</div>
+
+
 
 ## 📖 **1. Overview**
 
