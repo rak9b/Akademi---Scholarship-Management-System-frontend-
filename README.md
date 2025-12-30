@@ -1,11 +1,11 @@
 # 🎓 Akademi - Premium Scholarship Management System
 <div align="center">
-
+ <div>
 <div align="center">
 
-<!-- Clickable large landscape image -->
-<a href="https://ibb.co/B2gKBpsR" target="_blank">
-  <img src="https://i.ibb.co/XYZ/your-screenshot.png" alt="Akademi Screenshot" width="800">
+<!-- Clickable large landscape screenshot -->
+<a href="https://i.ibb.co/23jYd9KB/Screenshot-2025-12-30-202031.png" target="_blank">
+  <img src="https://i.ibb.co/23jYd9KB/Screenshot-2025-12-30-202031.png" alt="Akademi Screenshot" width="1000">
 </a>
 
 <p>A production-grade, full-stack scholarship orchestration platform with Elite UI/UX</p>
@@ -15,6 +15,7 @@
 [Backend Repo](https://github.com/rak9b/Akademi---Scholarship-Management-System-backend-)
 
 </div>
+
 
 
 
