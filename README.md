@@ -1,7 +1,7 @@
 # 🎓 Akademi - Premium Scholarship Management System
 
 <div align="center">
-
+   
 ![Akademi Banner](https://img.shields.io/badge/Akademi-Signature%20Edition-16a34a?style=for-the-badge&logo=googlescholar&logoColor=white)
 
 
