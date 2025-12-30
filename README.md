@@ -1,6 +1,5 @@
 # 🎓 Akademi - Premium Scholarship Management System
-<div align="center">
- <div>
+<div>
 <div align="center">
 
 <!-- Clickable large landscape screenshot -->
